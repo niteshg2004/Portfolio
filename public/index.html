@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${pageTitle} ?: 'Nitesh Ghimire | AI, Software, Systems'">Nitesh Ghimire | AI, Software, Systems</title>
+    <meta name="description" content="Portfolio of Nitesh Ghimire, a Computer Science undergraduate building AI and software systems.">
+    <meta name="author" content="Nitesh Ghimire">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+        <div class="container nav-shell">
+            <a class="wordmark" href="#hero" aria-label="Nitesh home">NITESH<span>/</span></a>
+            <nav class="desktop-nav" aria-label="Primary navigation">
+                <a href="#about">ABOUT</a><a href="#work">WORK</a><a href="#skills">SKILLS</a><a href="#pipeline">PIPELINE</a><a href="#contact">CONTACT</a>
+            </nav>
+            <div class="system-indicator"><span class="status-dot"></span> SYSTEM ONLINE</div>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">MENU</button>
+        </div>
+        <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" aria-hidden="true">
+            <a href="#about">ABOUT</a><a href="#work">WORK</a><a href="#skills">SKILLS</a><a href="#pipeline">PIPELINE</a><a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="hero" class="hero section-grid"><div class="container hero-layout"><div class="hero-copy reveal"><p class="eyebrow">NITESH / SYSTEM 001</p><h1>NITESH<br><em>GHIMIRE</em></h1><p class="hero-role">COMPUTER SCIENCE UNDERGRADUATE</p><p class="hero-description">Building intelligent systems and exploring the intersection of AI, software engineering, and real-world problems.</p><div class="hero-actions"><a class="button button-primary" href="#work">VIEW WORK <span>↘</span></a><a class="button" href="https://github.com/niteshg2004" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a class="button" href="https://linkedin.com/in/nitesh-g-a527541b" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a><a class="button" href="mailto:neeteshupadhaya@gmail.com?subject=Resume%20request">RESUME ↗</a></div></div><div class="hero-readout reveal" data-delay="150"><div class="readout-top"><span>LIVE READOUT</span><span>09.06.26</span></div><div class="readout-line"><span>LOCATION</span><strong>PUNE, INDIA</strong></div><div class="readout-line"><span>STATE</span><strong>BUILDING / LEARNING / EXPLORING</strong></div><div class="readout-line"><span>FOCUS</span><strong>AI + SOFTWARE SYSTEMS</strong></div><div class="readout-signal"><span class="status-dot"></span> ALL SYSTEMS NOMINAL</div></div></div></section>
+
+        <section id="about" class="section"><div class="container"><div class="section-heading"><span>01</span><h2>ABOUT / IDENTITY</h2></div><div class="about-layout"><p class="about-lead">I am a Computer Science undergraduate at Symbiosis Institute of Technology, Pune, focused on turning ideas into useful, understandable software.</p><div class="about-details"><p>My work sits across artificial intelligence, machine learning, computer vision, NLP, backend development, databases, DevOps, cloud, and automation.</p><p>Currently pursuing B.Tech Computer Science &amp; Engineering, 2023 – 2027.</p></div></div></div></section>
+
+        <section id="work" class="section work-section"><div class="container"><div class="section-heading"><span>02</span><h2>SELECTED WORK</h2><small>05 PROJECTS / 2025—2026</small></div><div class="projects">
+            <article class="project project-featured reveal"><div class="project-top"><span>01 / FEATURED</span><span>JAN 2025 – APR 2025</span></div><h3>Swanetra <em>AI Assistant for the Visually Impaired</em></h3><p>An offline-oriented AI assistant that helps visually impaired users understand their surroundings through real-time object detection, scene understanding, and voice feedback.</p><div class="tags"><span>PYTHON</span><span>YOLOV5</span><span>OPENCV</span><span>BLIP</span><span>LLAMA-3</span><span>SQLITE</span></div><a class="project-link" href="https://github.com/niteshg2004/Swanetra_AI_Assistant" target="_blank" rel="noopener noreferrer">VIEW GITHUB ↗</a></article>
+            <article class="project project-featured reveal" data-delay="100"><div class="project-top"><span>02 / FEATURED</span><span>AI / ML SYSTEM</span></div><h3>UPI Risk Guard <em>Smart Mandate Screening</em></h3><p>A Streamlit neuro-symbolic system that assesses UPI auto-payment risk using a traceable four-agent pipeline, NLP, synthetic transaction data, and live market sentiment.</p><div class="tags"><span>PYTHON</span><span>STREAMLIT</span><span>PYTORCH</span><span>BERT</span><span>SCIKIT-LEARN</span><span>NLP</span></div><a class="project-link" href="https://github.com/niteshg2004/UPI-Risk-Guard" target="_blank" rel="noopener noreferrer">VIEW GITHUB ↗</a></article>
+            <article class="project project-featured reveal" data-delay="200"><div class="project-top"><span>03 / FEATURED</span><span>JAN 2026 – MAY 2026</span></div><h3>AI-Assisted Customs Charges Calculator <em>Natural-language duty estimation</em></h3><p>A Python application that interprets product descriptions, maps them to tariff categories, and estimates customs duties with NLP and rule-based calculation logic.</p><div class="tags"><span>PYTHON</span><span>MACHINE LEARNING</span><span>NLP</span><span>SQL</span></div></article>
+            <article class="project reveal" data-delay="300"><div class="project-top"><span>04</span><span>DJANGO / PYTHON</span></div><h3>SmartMed <em>Medicine availability and decision support</em></h3><p>A Django platform for medicine availability, pharmacy inventory, role-based access, prescription workflows, and stock-prediction features under active development.</p><div class="tags"><span>PYTHON</span><span>DJANGO</span><span>SQLITE</span><span>ML</span><span>REST API</span></div><a class="project-link" href="https://github.com/niteshg2004/smartmed" target="_blank" rel="noopener noreferrer">VIEW GITHUB ↗</a></article>
+            <article class="project project-strong reveal" data-delay="400"><div class="project-top"><span>05 / DATABASE SYSTEM</span><span>MAR 2025 – MAY 2025</span></div><h3>Carbon Emission Management System <em>Java + SQL data management</em></h3><p>A Java application for managing and analyzing carbon emission data through JDBC, MySQL schemas, SQL queries, stored procedures, and SQL functions.</p><div class="tags"><span>JAVA</span><span>MAVEN</span><span>JDBC</span><span>MYSQL</span><span>SQL</span></div><a class="project-link" href="https://github.com/niteshg2004/carbon-emission-management" target="_blank" rel="noopener noreferrer">VIEW GITHUB ↗</a></article>
+        </div></div></section>
+
+        <section id="skills" class="section"><div class="container"><div class="section-heading"><span>03</span><h2>TECHNICAL SKILLS</h2></div><div class="skills-grid"><div><h3>LANGUAGES</h3><p>Python / Java / C++ / SQL</p></div><div><h3>AI / ML / NLP</h3><p>Machine Learning / NLP / Classification Models / PyTorch / YOLOv5 / BLIP / LLaMA-3 / OpenCV</p></div><div><h3>CORE CS</h3><p>Computer Networks / Data Structures &amp; Algorithms / OOP / Operating Systems</p></div><div><h3>DATABASES</h3><p>MySQL / SQL / JDBC / Stored Procedures / SQL Functions</p></div><div><h3>TOOLS / PLATFORMS</h3><p>Git / GitHub / Maven / AWS / Tableau / Microsoft Excel</p></div></div></div></section>
+
+        <section id="pipeline" class="section pipeline-section"><div class="container"><div class="section-heading"><span>04</span><h2>THE PIPELINE</h2><small>THIS PORTFOLIO / DEVOPS LAB</small></div><p class="pipeline-intro">From source change to a reproducible container, each stage is visible and repeatable.</p><div class="pipeline-track"><div><b>01</b><span>DEVELOPER</span></div><i>→</i><div><b>02</b><span>GITHUB</span></div><i>→</i><div><b>03</b><span>GITHUB ACTIONS</span></div><i>→</i><div><b>04</b><span>MAVEN</span></div><i>→</i><div><b>05</b><span>AUTOMATED TESTS</span></div><i>→</i><div><b>06</b><span>PACKAGE</span></div><i>→</i><div><b>07</b><span>DOCKER</span></div><i>→</i><div class="pipeline-active"><b>08</b><span>CONTAINER</span></div><i>→</i><div class="pipeline-active"><b>09</b><span>DEPLOYMENT</span></div></div><div class="pipeline-status"><span><b>SOURCE</b> GitHub</span><span><b>BUILD</b> Maven</span><span><b>TEST</b> JUnit</span><span><b>CONTAINER</b> Docker</span><span><b>CI/CD</b> GitHub Actions</span><span class="operational"><b>STATUS</b> ● OPERATIONAL</span></div></div></section>
+
+        <section id="contact" class="section contact-section"><div class="container"><div class="section-heading"><span>05</span><h2>CONTACT</h2></div><div class="contact-layout"><div><p class="contact-kicker">NITESH GHIMIRE</p><h2>Let's build<br><em>something.</em></h2></div><div class="contact-list"><a href="mailto:neeteshupadhaya@gmail.com">neeteshupadhaya@gmail.com ↗</a><a href="https://github.com/niteshg2004" target="_blank" rel="noopener noreferrer">github.com/niteshg2004 ↗</a><a href="https://linkedin.com/in/nitesh-g-a527541b" target="_blank" rel="noopener noreferrer">linkedin.com/in/nitesh-g-a527541b ↗</a><span>Pune, Maharashtra, India</span></div></div></div></section>
+    </main>
+    <footer><div class="container"><span>© <span id="year">2026</span> NITESH GHIMIRE</span><span>SPRING BOOT / MAVEN / DOCKER</span></div></footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>
